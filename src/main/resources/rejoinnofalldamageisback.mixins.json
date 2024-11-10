@@ -4,6 +4,7 @@
   "package": "me.lingbopro.rejoinnofalldamageisback.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "PlayerEntityMixin"
   ],
   "client": [
   ],
