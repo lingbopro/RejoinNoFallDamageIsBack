@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "rejoinnofalldamageisback",
+  "version": "${version}",
+  "name": "RejoinNoFallDamageIsBack",
+  "description": "You can still avoid fall damage by re-entering the world, after 24w45a fixes it - I don't want MC-212 to be fixed!",
+  "authors": [
+    "lingbopro"
+  ],
+  "contact": {
+    "homepage": "https://github.com/lingbopro/RejoinNoFallDamageIsBack",
+    "issues": "https://github.com/lingbopro/RejoinNoFallDamageIsBack/issues",
+    "sources": "https://github.com/lingbopro/RejoinNoFallDamageIsBack"
+  },
+  "license": "MIT",
+  "icon": "assets/rejoinnofalldamageisback/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.lingbopro.rejoinnofalldamageisback.client.RejoinnofalldamageisbackClient"
+    ],
+    "main": [
+      "me.lingbopro.rejoinnofalldamageisback.Rejoinnofalldamageisback"
+    ]
+  },
+  "mixins": [
+    "rejoinnofalldamageisback.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
